@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Page</title>
+
+    <!-- CDN Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="fixed w-full">
+      <nav class="mt-3">
+        <ul class="flex items-center gap-7 px-10 py-3 font-semibold">
+          <li>
+            <a
+              href=""
+              class="text-[#001f3f] hover:border-b-2 hover:border-pink-500 p-2"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-[#001f3f] hover:border-b-2 hover:border-pink-500 p-2"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-[#001f3f] hover:border-b-2 hover:border-pink-500 p-2"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header end -->
+
+    <!-- Main Content -->
+    <main
+      class="w-full h-screen flex flex-col md:flex-row justify-center items-center"
+    >
+      <!-- Div Text -->
+      <div
+        class="bg-[#a2d2ff] w-full md:w-[50%] h-full text-[#333] border border-slate-400 px-5 md:px-10 py-[50px] md:py-[80px]"
+      >
+        <div class="leading-tight">
+          <h1 class="text-[2em] text-[#001f3f]">HAPPY BIRTHDAY</h1>
+          <h1 class="text-[4em] w-[70%] leading-tight font-bold text-[#001f3f]">
+            HAPPY TWENTIES
+          </h1>
+          <h5 class="text-xl">SEPTEMBER ♥ 19 ♥ 2024</h5>
+        </div>
+
+        <div class="mt-[50px]">
+          <h5 class="text-xl font-semibold text-[#001f3f]">LET'S CELEBRATE!</h5>
+          <p class="w-[90%] text-lg">
+            On this special day, we celebrate YOU! May your birthday be filled
+            with joy, laughter, and wonderful moments that create memories to
+            last a lifetime. As you blow out the candles, we wish you all the
+            happiness, love, and success that you deserve.
+          </p>
+          <button
+            id="btn_surprise"
+            class="border-2 border-pink-500 text-[#001f3f] font-bold transition-ease-in hover:bg-pink-500 hover:text-white px-12 py-2 rounded-full mt-5"
+          >
+            Get your present
+          </button>
+        </div>
+      </div>
+      <!-- Div Text end -->
+
+      <!-- Div image end -->
+      <div class="order-[-1] md:order-10 bg-red-500 w-full md:w-[50%] h-full">
+        <img
+          src="./assets/img/bg.png"
+          alt=""
+          class="w-full h-full bg-cover object-cover"
+        />
+      </div>
+      <!-- Div Image end -->
+    </main>
+    <!-- Main Content End -->
+
+    <!-- Linked js -->
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
